@@ -1,0 +1,3 @@
+PySimpleGUI
+auto-py-to-exe
+py2app
