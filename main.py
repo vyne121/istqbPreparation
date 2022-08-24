@@ -15,6 +15,8 @@ def update_answer_buttons():
 
 if __name__ == '__main__':
     letter_list = ["a", "b", "c", "d", "e"]
+    good = 0
+    wrong = 0
     with open('questions.json') as q:
         questions = json.load(q)
         i = 0
@@ -28,25 +30,31 @@ if __name__ == '__main__':
                     visible=True if question["answer_" + letter] != "" else False,
                     button_color="gray")]
             )
-        layout.append([sg.Button("Previous", key="PREV_QUESTION", visible=True)])
-        layout.append([sg.Button("Next one", key="NEXT_QUESTION", visible=True)])
+        layout.append([sg.Button("Previous", key="PREV_QUESTION", visible=True),
+                       (sg.Button("Next one", key="NEXT_QUESTION", visible=True))])
         layout.append([sg.Button("Random question", key="RAND_QUESTION", visible=True)])
+        layout.append([sg.Input(key="SCORES", readonly=True, size=20, default_text="Good 0/0 Wrong",
+                                justification="center"),
+                       sg.Button("Reset score", key="RESET_SCORE", visible=True)])
 
-        window = sg.Window("ISTQB TAE Preparation", layout, resizable=False, auto_size_text=True)
+        window = sg.Window("ISTQB TAE Preparation", layout, resizable=False, auto_size_buttons=True, auto_size_text=True)
         while True:
             event, values = window.read()
             if event == sg.WIN_CLOSED:
                 break
-            if "QUESTION_A" in event \
-                    or "QUESTION_B" in event \
-                    or "QUESTION_C" in event \
-                    or "QUESTION_D" in event \
-                    or "QUESTION_E" in event:
-                for letter in letter_list:
+            for letter in letter_list:
+                if "QUESTION_" + letter.upper() in event:
                     if letter in questions[i]["solution"]:
-                        window["QUESTION_" + letter.upper()].Update(button_color="green")
+                        good += 1
                     else:
-                        window["QUESTION_" + letter.upper()].Update(button_color="red")
+                        wrong += 1
+                    for l in letter_list:
+                        if l in questions[i]["solution"]:
+                            window["QUESTION_" + l.upper()].Update(button_color="green")
+                        else:
+                            window["QUESTION_" + l.upper()].Update(button_color="red")
+                    window["SCORES"].Update(f"Good {good}/{wrong} Wrong")
+
             if "PREV_QUESTION" in event:
                 i = i - 1
                 if i < 0:
@@ -67,5 +75,9 @@ if __name__ == '__main__':
                     i = 0
                 window["QUESTION_TEXT"].Update(str(i+1) + ". question: \n" + questions[i]["question"])
                 update_answer_buttons()
+            if "RESET_SCORE" in event:
+                good = 0
+                wrong = 0
+                window["SCORES"].Update(f"Good {good}/{wrong} Wrong")
 
         window.close()
