@@ -358,5 +358,365 @@
     "answer_d": "d) Enlist a third party vendor to evaluate the current TAS",
     "answer_e": "",
     "solution": "c"
+  },
+  {
+    "question": "Which of the following is an advantage of using test automation?",
+    "answer_a": "a. It provides a better use of test resources",
+    "answer_b": "b. Tests are executed more slowly and allow for better analysis",
+    "answer_c": "c. Tests cover a wider range of scenarios because of the variance in execution",
+    "answer_d": "d. New technologies can be used",
+    "answer_e": "",
+    "solution": "a"
+  },
+  {
+    "question": "Which of the following is a technical success factor for a test automation project?",
+    "answer_a": "a. The GUI interaction is tightly coupled with its appearance",
+    "answer_b": "b. The GUI interaction is decoupled from its appearance",
+    "answer_c": "c. The test strategy concentrates on the APIs rather than the UI",
+    "answer_d": "d. The test strategy concentrates on the UI rather than the APIs",
+    "answer_e": "",
+    "solution": "b"
+  },
+  {
+    "question": "You are working on a project that is integrating internally-developed software with third-party software. The third-party software provides an extensive accounting package that will be used for all facets of the company. The internally-developed software is a point-of-sale product that will be used by the retail stores of the company. The communication between the two products is done via batch files and APIs. The reporting capabilities of the accounting package will be used by your company and are expected to provide the information necessary for budgeting decisions. Given this information, what is the most appropriate automation approach for testing the third-party system?",
+    "answer_a": "a. No test automation is needed because it should already have been tested by the third-party developers",
+    "answer_b": "b. Testing should be limited to only testing the reporting capability of the accounting package because that is the most critical software to your company",
+    "answer_c": "c. Testing should concentrate on the API being used to pass data to the third-party package to ensure the data is handled correctly",
+    "answer_d": "d. Batch file preparation testing should be conducted on the point-of-sale product to ensure the proper data is included in the batch files ",
+    "answer_e": "",
+    "solution": "c"
+  },
+  {
+    "question": "You have been assigned to implement test automation for a system that has the following capabilities: • Receives messages from hardware devices • Processes the error messages according to a rules engine • Sends email to the designated system administrator with recommendations for updates/changes to the hardware device or its settings You have been looking at test automation alternatives and have found that you can automate generating messages, receiving messages and processing the messages through the rules engine. The company has invested a large amount of money into a test automation tool, but the tool is not capable of getting the email from the email server and verifying that the recommendation is correct. You are seeking a complete automation solution. What should you do?",
+    "answer_a": "a. Look for a new tool that can accomplish all the necessary tasks",
+    "answer_b": "b. Look for a complementary tool that will be able to handle the email validation",
+    "answer_c": "c. Verify that the rule processing is correct and assume that the email will be prepared correctly",
+    "answer_d": "d. Manually verify the emails by having them sent to your email address",
+    "answer_e": "",
+    "solution": "b"
+  },
+  {
+    "question": "You have been working with your company’s standard test automation tool on a new mobile application developed in-house. This tool has been used for the last several years and supports the test automation for 20 major applications including five other mobile applications. The new application has a friendly UI but uses a table object that your tool cannot recognize. As a result, you have no way of verifying that the data shown in the table is correct. What is the first thing you should do about this problem?",
+    "answer_a": "a. See if the application can be run on a desktop and if the table can be recognized when the application is used on the desktop",
+    "answer_b": "b. Conduct a pilot test across a sample of industry leading tools to see if the object can be recognized",
+    "answer_c": "c. Ask the developers to remove the table object and replace it with a set of text fields",
+    "answer_d": "d. Ask the developers to change the table object to a standard table object that could be recognized by the tool",
+    "answer_e": "",
+    "solution": "d"
+  },
+  {
+    "question": "Which of the following are two of the important considerations when designing an SUT for testability?",
+    "answer_a": "a. Controllability and changeability",
+    "answer_b": "b. Changeability and maintainability",
+    "answer_c": "c. Maintainability and observability",
+    "answer_d": "d. Observability and controllability",
+    "answer_e": "",
+    "solution": "d"
+  },
+  {
+    "question": "Which of the following is an important consideration when designing an SUT for automation?",
+    "answer_a": "a. Compatibility with existing automation tools",
+    "answer_b": "b. Controllability by the operator",
+    "answer_c": "c. Maintainability by the developers",
+    "answer_d": "d. Changeability using existing automation tools",
+    "answer_e": "",
+    "solution": "a"
+  },
+  {
+    "question": "What are the four horizontal layers of the gTAA?",
+    "answer_a": "a. Test adaptation, test execution, test design, test definition",
+    "answer_b": "b. Test generation, test execution, test definition, test APIs",
+    "answer_c": "c. Test generation, test definition, test execution, test adaptation",
+    "answer_d": "d. Test definition, test execution, test reporting, test adaptation",
+    "answer_e": "",
+    "solution": "c"
+  },
+  {
+    "question": "You have been assigned to implement test automation for a system that has the following capabilities: • Receives messages from hardware devices • Processes the error messages according to a rules engine • Sends email to the designated system administrator with recommendations for updates/changes to the hardware device or its settings You have been looking at test automation alternatives and have found that you can automate generating messages, receiving messages and processing the messages through the rules engine. Considering the test definition layer of the TAA for this SUT, what is the most appropriate approach to use for the test definition?",
+    "answer_a": "a. Capture/playback scripting",
+    "answer_b": "b. Data-driven scripting",
+    "answer_c": "c. Linear scripting",
+    "answer_d": "d. Structured scripting",
+    "answer_e": "",
+    "solution": "b"
+  },
+  {
+    "question": "If model-based testing has been selected for the overall test automation approach for a project, how does that influence the layers of the TAA?",
+    "answer_a": "a. All layers are used, but test generation will be automated based on the defined model",
+    "answer_b": "b. There will be no need for the execution layer because defining the tests will be sufficient for testing the software",
+    "answer_c": "c. No adaptation will be needed because the interfaces will be defined by the model",
+    "answer_d": "d. There will be no need to design the tests for the APIs because those will be covered by the model ",
+    "answer_e": "",
+    "solution": "a"
+  },
+  {
+    "question": "What is the primary advantage of using abstraction in the TAA?",
+    "answer_a": "a. It makes it more flexible for the future",
+    "answer_b": "b. It requires a higher skill level to implement",
+    "answer_c": "c. It ensures that any scripting method will be supported",
+    "answer_d": "d. It improves the performance of the TAS",
+    "answer_e": "",
+    "solution": "a"
+  },
+  {
+    "question": "What is the primary disadvantage of using abstraction in the TAA?",
+    "answer_a": "a. It makes it more flexible for the future",
+    "answer_b": "b. It requires a higher skill level to implement it",
+    "answer_c": "c. It ensures that any scripting method will be supported",
+    "answer_d": "d. It improves the performance of the TAS",
+    "answer_e": "",
+    "solution": "b"
+  },
+  {
+    "question": "You are developing a TAS for an application that allows students to select courses, enroll in the courses and pay their fees online. Course enrollment is controlled by a set of rules that considers the student’s selected major (specialization), course prerequisites, timetables and overall course load. The course data changes frequently, including prerequisite information and course times. One of your concerns is how to build test automation software that will be able to handle all the changing data and still provide a correct result. Which of the following is a capability that must be built into the TAS to make it maintainable despite the changing data?",
+    "answer_a": "a. An ability for the TAS to determine the appropriate rule based on the input data",
+    "answer_b": "b. An ability for the TAS to control the decision result",
+    "answer_c": "c. An ability for the TAS to take user input for the course selections",
+    "answer_d": "d. An ability for the TAS to provide output showing the selected rule and the output data ",
+    "answer_e": "",
+    "solution": "a"
+  },
+  {
+    "question": "You are developing a TAS for an application that allows students to select courses, enroll in the courses and pay their fees online. Course enrollment is controlled by a set of rules that considers the student’s selected major (specialization), course prerequisites, timetables and overall course load. The course data changes frequently, including prerequisite information and course times. One of your concerns is how to build test automation software that will be able to handle all the changing data and still provide a correct result. The developers have agreed to build a test interface that will allow you to query the input to the rules engine and retrieve the decision results. Using this test interface, you have been able to build your test automation so that it can handle various inputs and you can validate that the results are correct. The SUT is ready to release to production. What should be done with the test interface?",
+    "answer_a": "a. It should be removed from the code to remove security risks",
+    "answer_b": "b. It should be left in the code to minimize disruption in the code prior to release",
+    "answer_c": "c. It should be disabled in the code for production but easily enabled for testing of future releases",
+    "answer_d": "d. It should not have been used for testing because of the risk of a probe effect",
+    "answer_e": "",
+    "solution": "c"
+  },
+  {
+    "question": "If the SUT has an API interface that you need to test, which part of the TAA will be used to facilitate creating those tests?",
+    "answer_a": "a. The API generator",
+    "answer_b": "b. The interface layer",
+    "answer_c": "c. The adaptation layer",
+    "answer_d": "d. The test design layer",
+    "answer_e": "",
+    "solution": "c"
+  },
+  {
+    "question": "You are implementing test automation for a project that has a safety-critical application. As a result, the reporting from the test automation execution is extremely important and must be 100% accurate. You want to merge the test automation results with the test management system that also records the manual test results. Which layer of the gTAA will be used to ensure the proper reporting occurs and the interface to the test management system is handled?",
+    "answer_a": "a. The reporting layer",
+    "answer_b": "b. The logging layer",
+    "answer_c": "c. The execution layer",
+    "answer_d": "d. The adaptation layer",
+    "answer_e": "",
+    "solution": "c"
+  },
+  {
+    "question": "When designing re-usability into the TAS, where should the re-use occur?",
+    "answer_a": "a. At the code level",
+    "answer_b": "b. At the framework level",
+    "answer_c": "c. At the product level",
+    "answer_d": "d. At the product line/family level",
+    "answer_e": "",
+    "solution": "d"
+  },
+  {
+    "question": "After two years of arguments, you have finally convinced your manager to conduct a pilot with a test automation tool you think will work well in your organization. You now need to select the project to use for the pilot. You have a choice of the following: Project A – a two year project that is currently in early requirements elicitation. This project is for a new e-commerce web site and is being developed mostly in house. The shopping cart component is being developed by a 3rd party but will be integrated by your developers. Project B – A safety-critical supply chain product that is 6 months behind schedule and has been deemed in “red” status by upper management. Project C – An upgrade to an HR timesheet tracking application that will be supported on desktop and mobile devices. This is a 4 month project and is being developed entirely in house. Project D – The shopping cart component of Project A. Which of these projects is best suited for a pilot project for the test automation tool?",
+    "answer_a": "a. Project A because it is a large project and in the early phases",
+    "answer_b": "b. Project B because it provides an opportunity to showcase the capabilities of the tool while helping to pull the project back on schedule.",
+    "answer_c": "c. Project C because it is a relatively short project and non-critical but also non-trivial",
+    "answer_d": "d. Project D because it is a small part of a larger project and will help to show the tool’s capability to work with third party applications",
+    "answer_e": "",
+    "solution": "c"
+  },
+  {
+    "question": "After a successful pilot, you have deployed your TAS throughout your organization. You are conducting retrospectives when projects complete, verifying the return on investment across projects, providing usage guidelines and training as needed. What other piece of information do you need to assess the effectiveness of the TAS?",
+    "answer_a": "a. Number of changes made to the processes to accommodate the TAS",
+    "answer_b": "b. Number of changes made to the TAS to accommodate the processes",
+    "answer_c": "c. Actual usage information for the TAS components across projects",
+    "answer_d": "d. Actual reporting provided to management regarding defects found in the TAS ",
+    "answer_e": "",
+    "solution": "c"
+  },
+  {
+    "question": "You have inherited a TAS that is working well. It uses keyword-driven scripting and was wellarchitected. The automation architect who built the system has now moved on to another company. The TAS is working across several projects and has multiple libraries of keywords, categorized by project. These keyword scripts are maintained by the individual project teams. Given just this information, what is the most significant risk for the TAS?",
+    "answer_a": "a. The keyword driven scripts may become out of date if not maintained",
+    "answer_b": "b. The level of abstraction, coupled with the departure of the architect may make the system difficult to maintain",
+    "answer_c": "c. New projects may not work as well with the TAS as the current projects",
+    "answer_d": "d. Because the keyword scripts are maintained by different teams, there is a likelihood that good coding standards are not being followed",
+    "answer_e": "",
+    "solution": "b"
+  },
+  {
+    "question": "You have inherited a TAS that is working well. It uses keyword-driven scripting and was wellarchitected. The automation architect who built the system has now moved on to another company. The TAS is working across several projects and has multiple libraries of keywords, categorized by project. These keyword scripts are maintained by the individual project teams. What is the best risk mitigation strategy for this TAS?",
+    "answer_a": "a. Require all test scripts to be developed in a data-driven form rather than keyword-driven to reduce abstraction",
+    "answer_b": "b. Define coding practices to be followed by all users of the TAS",
+    "answer_c": "c. Document the TAS architecture and the abstraction approach of the TAS so that future maintenance will be easier to understand",
+    "answer_d": "d. Stop allowing the individual project teams to maintain scripts and create a central team for script writing",
+    "answer_e": "",
+    "solution": "c"
+  },
+  {
+    "question": "Why is it important to have naming standards and conventions for the test suites and the TAS?",
+    "answer_a": "a. It makes it easier to analyze and maintain",
+    "answer_b": "b. It makes sure no one will duplicate a name that is already used",
+    "answer_c": "c. It makes the software easier to check in and out of source control",
+    "answer_d": "d. It makes it easier for other software teams to create their own naming standards",
+    "answer_e": "",
+    "solution": "a"
+  },
+  {
+    "question": "You have been asked to implement test automation for a project that is not meeting its deadlines. After further analysis you discover that the manual testers are not able to keep up with the new feature testing because the regression testing is taking 75% of their time. As a result, the new features are being released with many defects and customers are complaining about the quality. Given this information, what metric should you be tracking to show the value of the test automation for this project?",
+    "answer_a": "a. Percentage of code covered by the test automation",
+    "answer_b": "b. Equivalent manual test effort for the automated tests",
+    "answer_c": "c. Number of defects found by test automation",
+    "answer_d": "d. Percentage of builds accepted/rejected by the automated tests",
+    "answer_e": "",
+    "solution": "b"
+  },
+  {
+    "question": "You have finished the test automation for a financial project. During the automation effort, significant time was spent automating the validation of the report results. This was particularly difficult because the developers used a new tool to create the reports and dashboards and significant coding was required to allow the automation to recognize the fields within the report tables and to verify the appearance of the dashboard. The developers have now told you they are planning to re-work the reports modules to change the way the reports are rendered and to change the dashboard displays. Your management wants to know how much time this will require and if it should be done or if that part of the application should not be tested by the automation. You are estimating that the time required will be three days per test script and there are 20 test scripts involved in this testing. What other information do you need to know if you should make these changes or not?",
+    "answer_a": "a. The ratio of failures to defects",
+    "answer_b": "b. The number of times the tests will be run over the life of the reporting software",
+    "answer_c": "c. The comparison of the 60 days to the EMTE",
+    "answer_d": "d. The time required to analyze SUT failures",
+    "answer_e": "",
+    "solution": "c"
+  },
+  {
+    "question": "If you are tracking the number of the lines of code and the cyclomatic complexity of the test automation code, what type of metric are you gathering?",
+    "answer_a": "a. Tool scripting metrics",
+    "answer_b": "b. Automation code defect density",
+    "answer_c": "c. Trend metrics",
+    "answer_d": "d. Number of false-fail results",
+    "answer_e": "",
+    "solution": "a"
+  },
+  {
+    "question": "If you are tracking the frequency with which the test automation code reports a defect that is not really a defect, what metric are you gathering?",
+    "answer_a": "a. Tool scripting metrics",
+    "answer_b": "b. Automation code defect density",
+    "answer_c": "c. Trend metrics",
+    "answer_d": "d. Number of false-fail results",
+    "answer_e": "",
+    "solution": "d"
+  },
+  {
+    "question": "You have been running a test automation suite on a SUT and it is failing to run to completion. You have tried this five nights in a row and it has failed each night. Unfortunately, the logs are deleted when the test fails, so you have no idea what is causing the failure. The one clue you have is that the SUT is logging “out of memory” errors. You have found and corrected the problem that was causing the TAS logs to be deleted. You have the ability to log the following information. 1. The start and stop time of each test 2. The memory reading from the SUT at the start and stop of each test 3. The test case that is currently executing 4. The status of each test case that is executed 5. The number of cycles that have been completed for each test run 6. The random data used by each test case 7. The screenshots from every successfully completed test case What information do you need to be sure is being logged in order to help identify the problem?",
+    "answer_a": "a. 1, 2, 4, 5",
+    "answer_b": "b. 2, 3, 4, 5",
+    "answer_c": "c. 2, 3, 6, 7",
+    "answer_d": "d. 1, 2, 6, 7",
+    "answer_e": "",
+    "solution": "b"
+  },
+  {
+    "question": "What is the purpose of the test execution report?",
+    "answer_a": "a. To provide the details of the test execution at the test case level to project management",
+    "answer_b": "b. To provide information on failures so the TAE can address and fix the failures",
+    "answer_c": "c. To provide summary and trend information for interested stakeholders",
+    "answer_d": "d. To provide feedback to the SUT developers regarding the data used in the tests Version 1.0 Page 11 of 14 March 31, 2018 © American Software Testing Qualifications Board",
+    "answer_e": "",
+    "solution": "c"
+  },
+  {
+    "question": "You have been working on an iterative development project, developing the test automation. You have been able to automate 80% of the functional tests. Lately you have noticed that the software is beginning to stabilize and your functional tests rarely find any defects. What should you do with those tests?",
+    "answer_a": "a. Remove them from the TAS and replace them with new high yield tests",
+    "answer_b": "b. Move them to the regression test suite and run them at least once per iteration",
+    "answer_c": "c. Move them to the pre-production test suite and run them immediately prior to the production release",
+    "answer_d": "d. Keep them in the functional test suite and add more tests as needed",
+    "answer_e": "",
+    "solution": "b"
+  },
+  {
+    "question": "When transitioning from manual testing to automated testing, what should happen to the manual testers?",
+    "answer_a": "a. They should be phased out",
+    "answer_b": "b. They should be trained in programming so they will be ready to script",
+    "answer_c": "c. They should be offered programming training but assured that their domain expertise will always be needed",
+    "answer_d": "d. They should be told that due to a paradigm shift it is likely that those who cannot program will no longer have jobs by the end of the year",
+    "answer_e": "",
+    "solution": "c"
+  },
+  {
+    "question": "Which of the following is a way in which test interdependencies should be handled?",
+    "answer_a": "a. Store the data that is used by multiple tests externally",
+    "answer_b": "b. Pass the data from one test to the next via the test script",
+    "answer_c": "c. Link the tests together into one larger test",
+    "answer_d": "d. Harness the tests in order so they always run in the defined order",
+    "answer_e": "",
+    "solution": "a"
+  },
+  {
+    "question": "If you have used a keyword-driven approach to the test automation scripting and you now need to test new features that have been added to the SUT, what should you do?",
+    "answer_a": "a. If possible, add new keywords for the new functionality",
+    "answer_b": "b. If possible, add new data-driven scripts for the new functionality",
+    "answer_c": "c. Review the keyword-driven approach to see if it is still the right solution",
+    "answer_d": "d. Consider using a new testing tool that will allow you to test from the API rather than the GUI Version 1.0 Page 12 of 14 March 31, 2018 © American Software Testing Qualifications Board",
+    "answer_e": "",
+    "solution": "a"
+  },
+  {
+    "question": "What is the primary reason for automating confirmation testing?",
+    "answer_a": "a. It provides regression testing for areas that have been affected by a change",
+    "answer_b": "b. It verifies that the developer has fixed the reported problem correctly",
+    "answer_c": "c. It checks to ensure that the defect has not re-introduced itself in a later release",
+    "answer_d": "d. It covers a wider area of functionality and is likely to catch any changes",
+    "answer_e": "",
+    "solution": "c"
+  },
+  {
+    "question": "You have created a TAS that will be used across multiple projects in your organization. Until now, you have been manually configuring the TAS for each project. There have been no issues with these configurations and you have been able to manually verify that the setup is correct. Your manager has just informed you that the success of the TAS is being noted throughout the company. You will be installing the TAS for more SUTs in the coming weeks. \nWhich of the following is the best approach to handling this installation?",
+    "answer_a": "a. Continue with the manual installation because it is working and it allows you to manually verify the results",
+    "answer_b": "b. Continue with the manual installation but automate the results verification by creating an automated acceptance test for the TAS",
+    "answer_c": "c. Automate the installation by creating scripts that will copy the files from one working TAS to another",
+    "answer_d": "d. Automate the installation by creating installation scripts that will install the TAS from a central repository",
+    "answer_e": "",
+    "solution": "d"
+  },
+  {
+    "question": "You have just launched a TAS that uses SQL scripts to access the SUT database to acquire the data needed for the tests. The development teams are experimenting with different databases and they do not always tell you which one they are using. You have built a complex configuration management matrix that loads the proper SQL scripts for the database used by a particular SUT. Unfortunately, the developers have continued to make changes and you are finding that the incorrect SQL scripts are sometimes loaded, resulting in a complete failure of the automation run. Given this information, \nwhat would be the best approach to make sure the correct scripts get loaded?",
+    "answer_a": "a. Require the developers to tell you which database is in use",
+    "answer_b": "b. Load a set of default SQL scripts, and when they fail because of the incorrect database type, report it as a defect",
+    "answer_c": "c. Run a short set of tests that uses a set of SQL scripts and, based on which ones work, load the appropriate set of scripts for use during the automation run",
+    "answer_d": "d. Remove the database component from the scripts and instead use hard-coded data Version 1.0 Page 13 of 14 March 31, 2018 © American Software Testing Qualifications Board",
+    "answer_e": "",
+    "solution": "c"
+  },
+  {
+    "question": "You have taken a working TAS and created a “gold” version. This “gold” version of the TAS will be used to create all new TASs for projects. You want to verify that this TAS is working correctly before you roll it out. \nWhich of the following is the best way to verify this?",
+    "answer_a": "a. Run a known failing script and make sure it passes",
+    "answer_b": "b. Run a suite of tests and verify that they run to completion with no errors",
+    "answer_c": "c. Run a suite of tests and verify that the results are consistent with previous runs",
+    "answer_d": "d. Run a test of tests that exercise a new feature in the framework and verify that they finish successfully",
+    "answer_e": "",
+    "solution": "c"
+  },
+  {
+    "question": "You are in the process of deploying an automation suite for a new product. Development is continuing and automation must keep pace with the new functionality and must also continue to work for the existing functionality. \nGiven this information, what is the most likely area of the test automation to fail and how should you monitor to make sure it is not failing?",
+    "answer_a": "a. Known failures; make sure tests that should fail continue to fail",
+    "answer_b": "b. Known passes; make sure tests that should pass continue to pass",
+    "answer_c": "c. New functionality; monitor the new tests to ensure that they are working properly",
+    "answer_d": "d. Stable functionality; monitor the existing tests to ensure that they are working properly",
+    "answer_e": "",
+    "solution": "c"
+  },
+  {
+    "question": "You are working with a test automation solution that has been in use for a year. One issue you have found is that there are often false-positives, which cause significant time to research and troubleshoot. Although each one of these is corrected when it is found, there always seem to be a few new ones introduced when new scripts are written. \nWhat is most likely to be the problem with the TAS that is allowing these false-positives to continue to be introduced?",
+    "answer_a": "a. The wait mechanisms are not correct and the software is moving ahead instead of waiting for a reply from the previous action",
+    "answer_b": "b. There is overlap in the test cases and test steps that is causing a change in one area to break the same code that is used elsewhere",
+    "answer_c": "c. The TAS and SUT error recovery mechanisms are not compatible",
+    "answer_d": "d. The verification functions are not standardized and are being coded for each script rather than employing a proven method of verification Version 1.0 Page 14 of 14 March 31, 2018 © American Software Testing Qualifications Board",
+    "answer_e": "",
+    "solution": "d"
+  },
+  {
+    "question": "You have implemented a TAS that provides test automation for web services. One of the problems you are encountering is that services are sometimes not available, which causes the scripts to fail. When this occurs, all the scripts that require that service have cascading failures resulting in wasting the time available for the test automation to run. This also causes a significant amount of time to be spent troubleshooting the problem since it can be difficult to discover the root cause. \nGiven this information, what would be the most efficient process to implement when the scripts detect a service that is unavailable?",
+    "answer_a": "a. Abort the test at that point to avoid the cascading errors and time spent troubleshooting",
+    "answer_b": "b. Restart the test when the service outage is discovered",
+    "answer_c": "c. Restart the service from within the script, wait for the service to be fully ready, then continue execution",
+    "answer_d": "d. Restart the system from within the script, wait for the full system to initialize, then continue execution",
+    "answer_e": "",
+    "solution": "c"
+  },
+  {
+    "question": "You are working with an automation team that has been working on several projects. The various functions developed by the team have been checked into the function library and are available for the automation team to use. You have been looking through the function library for a function that handles GUI tables and have found that there are five different functions created to manipulate data in tables. Looking at these, they all look quite similar although some are more elegant than others. \nWhat should you do?",
+    "answer_a": "a. Develop your own table control as you will be sure it works for your application",
+    "answer_b": "b. Take one of the existing table controls and re-use it or modify it to fit your application",
+    "answer_c": "c. Consolidate the table controls into one making sure that you do not break any of the capabilities of each individual control",
+    "answer_d": "d. Work with the other automators to determine if consolidation can be done and review the naming conventions to be sure the individual controls are named appropriately to reflect their full functionality",
+    "answer_e": "",
+    "solution": "d"
   }
 ]

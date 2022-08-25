@@ -70,7 +70,7 @@ if __name__ == '__main__':
                 window["QUESTION_TEXT"].Update(str(i+1) + ". question: \n" + questions[i]["question"])
                 update_answer_buttons()
             if "RAND_QUESTION" in event:
-                i = random.randint(0, 40)
+                i = random.randint(0, len(questions)-1)
                 if i >= len(questions):
                     i = 0
                 window["QUESTION_TEXT"].Update(str(i+1) + ". question: \n" + questions[i]["question"])
