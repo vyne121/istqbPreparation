@@ -387,7 +387,7 @@
     "solution": "c"
   },
   {
-    "question": "You have been assigned to implement test automation for a system that has the following capabilities: • Receives messages from hardware devices • Processes the error messages according to a rules engine • Sends email to the designated system administrator with recommendations for updates/changes to the hardware device or its settings You have been looking at test automation alternatives and have found that you can automate generating messages, receiving messages and processing the messages through the rules engine. The company has invested a large amount of money into a test automation tool, but the tool is not capable of getting the email from the email server and verifying that the recommendation is correct. You are seeking a complete automation solution. What should you do?",
+    "question": "You have been assigned to implement test automation for a system that has the following capabilities: \n• Receives messages from hardware devices \n• Processes the error messages according to a rules engine \n• Sends email to the designated system administrator with recommendations for updates/changes to the hardware device or its settings \nYou have been looking at test automation alternatives and have found that you can automate generating messages, receiving messages and processing the messages through the rules engine. \nThe company has invested a large amount of money into a test automation tool, but the tool is not capable of getting the email from the email server and verifying that the recommendation is correct. You are seeking a complete automation solution. \nWhat should you do?",
     "answer_a": "a. Look for a new tool that can accomplish all the necessary tasks",
     "answer_b": "b. Look for a complementary tool that will be able to handle the email validation",
     "answer_c": "c. Verify that the rule processing is correct and assume that the email will be prepared correctly",
@@ -607,7 +607,7 @@
     "answer_a": "a. To provide the details of the test execution at the test case level to project management",
     "answer_b": "b. To provide information on failures so the TAE can address and fix the failures",
     "answer_c": "c. To provide summary and trend information for interested stakeholders",
-    "answer_d": "d. To provide feedback to the SUT developers regarding the data used in the tests Version 1.0 Page 11 of 14 March 31, 2018 © American Software Testing Qualifications Board",
+    "answer_d": "d. To provide feedback to the SUT developers regarding the data used in the tests",
     "answer_e": "",
     "solution": "c"
   },
@@ -643,7 +643,7 @@
     "answer_a": "a. If possible, add new keywords for the new functionality",
     "answer_b": "b. If possible, add new data-driven scripts for the new functionality",
     "answer_c": "c. Review the keyword-driven approach to see if it is still the right solution",
-    "answer_d": "d. Consider using a new testing tool that will allow you to test from the API rather than the GUI Version 1.0 Page 12 of 14 March 31, 2018 © American Software Testing Qualifications Board",
+    "answer_d": "d. Consider using a new testing tool that will allow you to test from the API rather than the GUI",
     "answer_e": "",
     "solution": "a"
   },
@@ -670,7 +670,7 @@
     "answer_a": "a. Require the developers to tell you which database is in use",
     "answer_b": "b. Load a set of default SQL scripts, and when they fail because of the incorrect database type, report it as a defect",
     "answer_c": "c. Run a short set of tests that uses a set of SQL scripts and, based on which ones work, load the appropriate set of scripts for use during the automation run",
-    "answer_d": "d. Remove the database component from the scripts and instead use hard-coded data Version 1.0 Page 13 of 14 March 31, 2018 © American Software Testing Qualifications Board",
+    "answer_d": "d. Remove the database component from the scripts and instead use hard-coded data",
     "answer_e": "",
     "solution": "c"
   },
@@ -697,7 +697,7 @@
     "answer_a": "a. The wait mechanisms are not correct and the software is moving ahead instead of waiting for a reply from the previous action",
     "answer_b": "b. There is overlap in the test cases and test steps that is causing a change in one area to break the same code that is used elsewhere",
     "answer_c": "c. The TAS and SUT error recovery mechanisms are not compatible",
-    "answer_d": "d. The verification functions are not standardized and are being coded for each script rather than employing a proven method of verification Version 1.0 Page 14 of 14 March 31, 2018 © American Software Testing Qualifications Board",
+    "answer_d": "d. The verification functions are not standardized and are being coded for each script rather than employing a proven method of verification",
     "answer_e": "",
     "solution": "d"
   },
